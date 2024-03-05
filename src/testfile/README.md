@@ -1,3 +1,7 @@
+---
+title: 技术文章
+---
+
 # Hello VuePress
 
 ## 同一台电脑如何配置多个 Github 的SSH Key
