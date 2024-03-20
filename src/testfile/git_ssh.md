@@ -137,4 +137,13 @@ git config user.email "zhj0125@gmail.com"
 git config user.name "Houjin-Tech"
 ```
 
-转载并修改后发布，原链接：[https://ensky.tech/one-pc-double-ssh-key/](https://ensky.tech/one-pc-double-ssh-key/)
+### 9. 设置代理
+  
+```sh{2}
+#使用socks5代理（推荐）
+git config --global http.https://github.com.proxy socks5://127.0.0.1:10808
+#使用http代理（不推荐）
+git config --global http.https://github.com.proxy http://127.0.0.1:10809
+```
+
+修改后发布，原链接：[https://ensky.tech/one-pc-double-ssh-key/](https://ensky.tech/one-pc-double-ssh-key/)
